@@ -1,0 +1,22 @@
+.container{
+    background-color:aquamarine;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px
+}
+.before::before 
+{
+
+content:"😎";
+
+}
+.after::after{
+    content:"👌";
+
+
+}
+.after1::after {
+
+    content:"🙌";
+}
